@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+.container {
+  height: 80vh;
+}
+.box {
+  width: 80%;
+  min-height: 40%;
+  margin: 0 auto;
+  text-align: justify;
+  border: 1px solid #222;
+  border-radius: 4px;
+}
+#text {
+  height: 40%;
+}
+#color-text {
+  font-weight: bold;
+}
