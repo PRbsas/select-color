@@ -1,8 +1,8 @@
-const text = document.getElementById('text');
-const allTextSelected = [];
+var text = document.getElementById('text');
+var allTextSelected = [];
 
-const allText = window.selecting(text, (selector) => {
-  const textSelected = selector.text; // The selected text
+var allText = window.selecting(text, (selector) => {
+  var textSelected = selector.text; // The selected text
   allTextSelected.push(textSelected);
   document.getElementById('color-text').innerHTML += `<span>${textSelected} </span>`;
 
